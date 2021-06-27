@@ -43,32 +43,28 @@
     justify-content: center;
     align-items: center;
 }
-.text h1:hover{
-    
-    color: burlywood;
-}
 
 .text h1:hover{
     
-    color: burlywood;
+    color: black;
 }
 .text h1{
-    margin-bottom: 24px;
-    color: burlywood;
+    margin-bottom:24px;
+    color: #ca780e;
     
 }
 .text .cta{
     padding: 7px 16px;
     border: 1px solid;
     border-radius: 50px;
-    color: burlywood;
+    color: black;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
     
 }
 
-.text .cta:hover{
+.text.cta:hover{
     padding: 7px 28px;
     background-color: rgb(246, 248, 229);
 }
@@ -83,7 +79,7 @@
 
 .rewards .text{
     background-color: #f5d1a2;
-    margin-left:80px
+    
 }
 
 section{
@@ -132,8 +128,13 @@ section{
     color: rgb(87, 53, 11);
 }
 
-.top-bottom-section .image{
-    display: flex;
+
+.top-bottom-section .image img {
+   
+
+
+
+    width: 47px;
 }
 
 .top-bottom-section .text h1{
